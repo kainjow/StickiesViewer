@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5C4A2A914DCDEF500E50E6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C4A2A814DCDEF500E50E6C /* Cocoa.framework */; };
+		A5C4A2B514DCDEF500E50E6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C4A2B414DCDEF500E50E6C /* main.m */; };
+		A5C4A2BC14DCDEF500E50E6C /* SVDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C4A2BB14DCDEF500E50E6C /* SVDocument.m */; };
+		A5C4A2BF14DCDEF500E50E6C /* SVDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C4A2BD14DCDEF500E50E6C /* SVDocument.xib */; };
+		A5C4A2C214DCDEF500E50E6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C4A2C014DCDEF500E50E6C /* MainMenu.xib */; };
+		A5C4A2CB14DCE27100E50E6C /* SVReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C4A2CA14DCE27100E50E6C /* SVReader.m */; };
+		A5C4A2CE14DCE9FF00E50E6C /* SVAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C4A2CD14DCE9FF00E50E6C /* SVAppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5C4A2A414DCDEF500E50E6C /* Stickies Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stickies Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C4A2A814DCDEF500E50E6C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A5C4A2B014DCDEF500E50E6C /* Stickies Viewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stickies Viewer-Info.plist"; sourceTree = "<group>"; };
+		A5C4A2B414DCDEF500E50E6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5C4A2BA14DCDEF500E50E6C /* SVDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVDocument.h; sourceTree = "<group>"; };
+		A5C4A2BB14DCDEF500E50E6C /* SVDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVDocument.m; sourceTree = "<group>"; };
+		A5C4A2BE14DCDEF500E50E6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SVDocument.xib; sourceTree = "<group>"; };
+		A5C4A2C114DCDEF500E50E6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5C4A2C914DCE27100E50E6C /* SVReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVReader.h; sourceTree = "<group>"; };
+		A5C4A2CA14DCE27100E50E6C /* SVReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVReader.m; sourceTree = "<group>"; };
+		A5C4A2CC14DCE9FF00E50E6C /* SVAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVAppController.h; sourceTree = "<group>"; };
+		A5C4A2CD14DCE9FF00E50E6C /* SVAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVAppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5C4A2A114DCDEF500E50E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C4A2A914DCDEF500E50E6C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5C4A29914DCDEF500E50E6C = {
+			isa = PBXGroup;
+			children = (
+				A5C4A2AE14DCDEF500E50E6C /* Stickies Viewer */,
+				A5C4A2A714DCDEF500E50E6C /* Frameworks */,
+				A5C4A2A514DCDEF500E50E6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5C4A2A514DCDEF500E50E6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5C4A2A414DCDEF500E50E6C /* Stickies Viewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5C4A2A714DCDEF500E50E6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5C4A2A814DCDEF500E50E6C /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5C4A2AE14DCDEF500E50E6C /* Stickies Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				A5C4A2CC14DCE9FF00E50E6C /* SVAppController.h */,
+				A5C4A2CD14DCE9FF00E50E6C /* SVAppController.m */,
+				A5C4A2BA14DCDEF500E50E6C /* SVDocument.h */,
+				A5C4A2BB14DCDEF500E50E6C /* SVDocument.m */,
+				A5C4A2C914DCE27100E50E6C /* SVReader.h */,
+				A5C4A2CA14DCE27100E50E6C /* SVReader.m */,
+				A5C4A2BD14DCDEF500E50E6C /* SVDocument.xib */,
+				A5C4A2C014DCDEF500E50E6C /* MainMenu.xib */,
+				A5C4A2AF14DCDEF500E50E6C /* Supporting Files */,
+			);
+			path = "Stickies Viewer";
+			sourceTree = "<group>";
+		};
+		A5C4A2AF14DCDEF500E50E6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5C4A2B014DCDEF500E50E6C /* Stickies Viewer-Info.plist */,
+				A5C4A2B414DCDEF500E50E6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5C4A2A314DCDEF500E50E6C /* Stickies Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C4A2C514DCDEF500E50E6C /* Build configuration list for PBXNativeTarget "Stickies Viewer" */;
+			buildPhases = (
+				A5C4A2A014DCDEF500E50E6C /* Sources */,
+				A5C4A2A114DCDEF500E50E6C /* Frameworks */,
+				A5C4A2A214DCDEF500E50E6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stickies Viewer";
+			productName = "Stickies Viewer";
+			productReference = A5C4A2A414DCDEF500E50E6C /* Stickies Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5C4A29B14DCDEF500E50E6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Kevin Wojniak";
+			};
+			buildConfigurationList = A5C4A29E14DCDEF500E50E6C /* Build configuration list for PBXProject "Stickies Viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5C4A29914DCDEF500E50E6C;
+			productRefGroup = A5C4A2A514DCDEF500E50E6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5C4A2A314DCDEF500E50E6C /* Stickies Viewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5C4A2A214DCDEF500E50E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C4A2BF14DCDEF500E50E6C /* SVDocument.xib in Resources */,
+				A5C4A2C214DCDEF500E50E6C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5C4A2A014DCDEF500E50E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C4A2B514DCDEF500E50E6C /* main.m in Sources */,
+				A5C4A2BC14DCDEF500E50E6C /* SVDocument.m in Sources */,
+				A5C4A2CB14DCE27100E50E6C /* SVReader.m in Sources */,
+				A5C4A2CE14DCE9FF00E50E6C /* SVAppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5C4A2BD14DCDEF500E50E6C /* SVDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5C4A2BE14DCDEF500E50E6C /* en */,
+			);
+			name = SVDocument.xib;
+			sourceTree = "<group>";
+		};
+		A5C4A2C014DCDEF500E50E6C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5C4A2C114DCDEF500E50E6C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5C4A2C314DCDEF500E50E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Debug;
+		};
+		A5C4A2C414DCDEF500E50E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Release;
+		};
+		A5C4A2C614DCDEF500E50E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Stickies Viewer/Stickies Viewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5C4A2C714DCDEF500E50E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Stickies Viewer/Stickies Viewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5C4A29E14DCDEF500E50E6C /* Build configuration list for PBXProject "Stickies Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C4A2C314DCDEF500E50E6C /* Debug */,
+				A5C4A2C414DCDEF500E50E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C4A2C514DCDEF500E50E6C /* Build configuration list for PBXNativeTarget "Stickies Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C4A2C614DCDEF500E50E6C /* Debug */,
+				A5C4A2C714DCDEF500E50E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5C4A29B14DCDEF500E50E6C /* Project object */;
+}
